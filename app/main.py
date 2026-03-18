@@ -18,11 +18,11 @@ app.add_middleware(
 
 def get_db_connection():
     return psycopg2.connect(
-        host="34.147.188.76",
+        host="aws-1-eu-central-1.pooler.supabase.com",
         port=5432,
         database="postgres",
-        user="test",
-        password="Pervin21@"
+        user="postgres.ybpjyutscwzhlkrzoltz",
+        password="Ad8gt,b?g9GR_bC"
     )
 
 # Configuration storage
