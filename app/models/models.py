@@ -8,14 +8,11 @@ Base = declarative_base()
 
 class PriorityEnum(enum.Enum):
     # New priority values
-    BUSINESS_CRITICAL = "BUSINESS_CRITICAL"
-    MISSION_CRITICAL = "MISSION_CRITICAL"
-    BUSINESS_OPERATION = "BUSINESS_OPERATION"
+    BUSINESS_CRITICAL = "BUSINESS CRITICAL"
+    MISSION_CRITICAL = "MISSION CRITICAL"
+    BUSINESS_OPERATION = "BUSINESS OPERATION"
     # Keep old values for backward compatibility
-    CRITICAL = "CRITICAL"
-    HIGH = "HIGH"
-    MEDIUM = "MEDIUM"
-    LOW = "LOW"
+
 
 class StatusEnum(enum.Enum):
     ACTIVE = "ACTIVE"
